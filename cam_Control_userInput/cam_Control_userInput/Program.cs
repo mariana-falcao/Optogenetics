@@ -11,8 +11,8 @@ class Program
         //int duration = int.Parse(Console.ReadLine() ?? "10");
 
         // Trial settings 
-        int fps = 20;
-        int duration = 5;
+        int fps = 700;
+        int duration = 1;
         //DutyCycle
         double dutyCycleT1 = 0.1;
         double dutyCycleT2 = 0.2;

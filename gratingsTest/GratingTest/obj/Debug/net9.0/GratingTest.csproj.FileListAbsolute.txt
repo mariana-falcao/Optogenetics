@@ -28,3 +28,34 @@ C:\Users\Joao Marques\Desktop\Mariana\gratingsTest\GratingTest\obj\Debug\net9.0\
 C:\Users\Joao Marques\Desktop\Mariana\gratingsTest\GratingTest\obj\Debug\net9.0\GratingTest.pdb
 C:\Users\Joao Marques\Desktop\Mariana\gratingsTest\GratingTest\obj\Debug\net9.0\GratingTest.genruntimeconfig.cache
 C:\Users\Joao Marques\Desktop\Mariana\gratingsTest\GratingTest\obj\Debug\net9.0\ref\GratingTest.dll
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\bin\Debug\net9.0\GratingTest.exe
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\bin\Debug\net9.0\GratingTest.deps.json
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\bin\Debug\net9.0\GratingTest.runtimeconfig.json
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\bin\Debug\net9.0\GratingTest.dll
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\bin\Debug\net9.0\GratingTest.pdb
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\bin\Debug\net9.0\OpenTK.Audio.OpenAL.dll
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\bin\Debug\net9.0\OpenTK.Compute.dll
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\bin\Debug\net9.0\OpenTK.Core.dll
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\bin\Debug\net9.0\OpenTK.Graphics.dll
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\bin\Debug\net9.0\OpenTK.Input.dll
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\bin\Debug\net9.0\OpenTK.Mathematics.dll
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\bin\Debug\net9.0\OpenTK.Windowing.Common.dll
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\bin\Debug\net9.0\OpenTK.Windowing.Desktop.dll
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\bin\Debug\net9.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\bin\Debug\net9.0\runtimes\linux-x64\native\libglfw.so.3
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\bin\Debug\net9.0\runtimes\osx-arm64\native\libglfw.3.dylib
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\bin\Debug\net9.0\runtimes\osx-x64\native\libglfw.3.dylib
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\bin\Debug\net9.0\runtimes\win-x64\native\glfw3.dll
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\bin\Debug\net9.0\runtimes\win-x86\native\glfw3.dll
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\obj\Debug\net9.0\GratingTest.csproj.AssemblyReference.cache
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\obj\Debug\net9.0\GratingTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\obj\Debug\net9.0\GratingTest.AssemblyInfoInputs.cache
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\obj\Debug\net9.0\GratingTest.AssemblyInfo.cs
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\obj\Debug\net9.0\GratingTest.csproj.CoreCompileInputs.cache
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\obj\Debug\net9.0\GratingTest.sourcelink.json
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\obj\Debug\net9.0\GratingT.698B12B6.Up2Date
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\obj\Debug\net9.0\GratingTest.dll
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\obj\Debug\net9.0\refint\GratingTest.dll
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\obj\Debug\net9.0\GratingTest.pdb
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\obj\Debug\net9.0\GratingTest.genruntimeconfig.cache
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\Optogenetics\gratingsTest\GratingTest\obj\Debug\net9.0\ref\GratingTest.dll

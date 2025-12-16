@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GratingTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abc8a5fcefa21f0f4fb84414263578816911f5c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("GratingTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GratingTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

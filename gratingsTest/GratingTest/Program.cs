@@ -1,40 +1,51 @@
 ﻿using System;
+using System.Linq;
 using OpenTK.Windowing.Common;
 using OpenTK.Windowing.Desktop;
 using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
+using OpenTK.Windowing.GraphicsLibraryFramework; // For Monitors.GetMonitors()
 
-class Program
+// ===================== CONFIGURABLE PARAMETERS =====================
+int numStripes = 8;        // Number of black/white stripes
+float driftSpeed = 0.25f;  // cycles per second
+float orientationDeg = 0f; // rotation angle in degrees
+float contrast = 1.0f;     // 0 = gray, 1 = full black/white
+float durationSec = 60f;   // total duration of grating display
+                           // ===================================================================
+
+// ----- Detect and print monitors -----
+var monitors = Monitors.GetMonitors();
+Console.WriteLine("Detected monitors:");
+for (int i = 0; i < monitors.Count; i++)
 {
-    // ===================== CONFIGURABLE PARAMETERS =====================
-    private static int numStripes = 8;        // Number of black/white stripes
-    private static float driftSpeed = 0.25f;   // cycles per second
-    private static float orientationDeg = 0f; // rotation angle in degrees
-    private static float contrast = 1.0f;     // 0 = gray, 1 = full black/white
-    private static float durationSec = 2f;   // total duration of grating display
-    // ===================================================================
-
-    static void Main()
-    {
-        var nativeSettings = new NativeWindowSettings()
-        {
-            Size = new Vector2i(800, 600),
-            Title = "Configurable Drifting Grating"
-        };
-
-        using var window = new ConfigurableGratingWindow(
-            GameWindowSettings.Default,
-            nativeSettings,
-            numStripes,
-            driftSpeed,
-            orientationDeg,
-            contrast,
-            durationSec
-        );
-
-        window.Run();
-    }
+    var m = monitors[i];
+    Console.WriteLine($"[{i}] {m.Name}  {m.ClientArea.Size.X}x{m.ClientArea.Size.Y}");
 }
+
+// Choose the projector (assuming it’s the second monitor)
+var projectorMonitor = monitors.Count > 1 ? monitors[1] : monitors[0];
+
+// ----- Configure native window -----
+var nativeSettings = new NativeWindowSettings()
+{
+    Title = "Configurable Drifting Grating",
+    WindowState = WindowState.Fullscreen, // best for multi-monitor setups
+    CurrentMonitor = projectorMonitor.Handle,            // 👈 force onto projector
+};
+
+// ----- Create and run the window -----
+using var window = new ConfigurableGratingWindow(
+    GameWindowSettings.Default,
+    nativeSettings,
+    numStripes,
+    driftSpeed,
+    orientationDeg,
+    contrast,
+    durationSec
+);
+
+window.Run();
 
 class ConfigurableGratingWindow : GameWindow
 {
@@ -63,9 +74,8 @@ class ConfigurableGratingWindow : GameWindow
 
     protected override void OnLoad()
     {
-        GL.ClearColor(0.5f, 0.5f, 0.5f, 1f); // gray background for zero contrast
+        GL.ClearColor(0.5f, 0.5f, 0.5f, 1f);
 
-        // fullscreen quad
         float[] vertices = {
             -1f, -1f,
              1f, -1f,
@@ -81,11 +91,9 @@ class ConfigurableGratingWindow : GameWindow
         int vbo = GL.GenBuffer();
         GL.BindBuffer(BufferTarget.ArrayBuffer, vbo);
         GL.BufferData(BufferTarget.ArrayBuffer, vertices.Length * sizeof(float), vertices, BufferUsageHint.StaticDraw);
-
         GL.VertexAttribPointer(0, 2, VertexAttribPointerType.Float, false, 2 * sizeof(float), 0);
         GL.EnableVertexAttribArray(0);
 
-        // shaders
         string vertexShaderSource = @"
             #version 330 core
             layout(location = 0) in vec2 aPosition;
@@ -94,8 +102,7 @@ class ConfigurableGratingWindow : GameWindow
             {
                 gl_Position = vec4(aPosition, 0.0, 1.0);
                 vPos = aPosition;
-            }
-        ";
+            }";
 
         string fragmentShaderSource = @"
             #version 330 core
@@ -108,18 +115,14 @@ class ConfigurableGratingWindow : GameWindow
 
             void main()
             {
-                // rotate coordinates
                 float x = vPos.x * cos(orientation) + vPos.y * sin(orientation);
-
                 float normalizedX = (x + 1.0) / 2.0;
                 float stripe = floor(fract(normalizedX + phase) * numStripes);
                 float lum = mod(stripe, 2.0) < 1.0 ? 0.5f + contrast/2.0f : 0.5f - contrast/2.0f;
                 FragColor = vec4(lum, lum, lum, 1.0);
-            }
-        ";
+            }";
 
         shaderProgram = CompileShaders(vertexShaderSource, fragmentShaderSource);
-
         startTime = DateTime.Now.TimeOfDay.TotalSeconds;
 
         base.OnLoad();
@@ -188,3 +191,4 @@ class ConfigurableGratingWindow : GameWindow
         return program;
     }
 }
+

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MvovtFwalcI=",
+  "dgSpecHash": "Ta8nNv0EonI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\TeachingLab\\Desktop\\OptogeneticsOrgerLab\\cam_Control_userInput\\cam_Control_userInput\\cam_Control_userInput.csproj",
+  "projectFilePath": "C:\\Users\\TeachingLab\\Desktop\\OptogeneticsOrgerLab\\Optogenetics\\cam_Control_userInput\\cam_Control_userInput\\cam_Control_userInput.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TeachingLab\\.nuget\\packages\\runtime.android-arm.runtime.native.system.io.ports\\9.0.9\\runtime.android-arm.runtime.native.system.io.ports.9.0.9.nupkg.sha512",
     "C:\\Users\\TeachingLab\\.nuget\\packages\\runtime.android-arm64.runtime.native.system.io.ports\\9.0.9\\runtime.android-arm64.runtime.native.system.io.ports.9.0.9.nupkg.sha512",
