@@ -1,0 +1,13 @@
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\MyCustomCameraOverlay\MyCustomCameraOverlay\bin\x64\Release\MyCustomCameraOverlay.exe.config
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\MyCustomCameraOverlay\MyCustomCameraOverlay\bin\x64\Release\MyCustomCameraOverlay.exe
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\MyCustomCameraOverlay\MyCustomCameraOverlay\bin\x64\Release\MyCustomCameraOverlay.pdb
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\MyCustomCameraOverlay\MyCustomCameraOverlay\bin\x64\Release\FlyCapture2GUI_Managed_v140.dll
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\MyCustomCameraOverlay\MyCustomCameraOverlay\bin\x64\Release\FlyCapture2Managed_v140.dll
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\MyCustomCameraOverlay\MyCustomCameraOverlay\obj\x64\Release\MyCustomCameraOverlay.csproj.AssemblyReference.cache
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\MyCustomCameraOverlay\MyCustomCameraOverlay\obj\x64\Release\MyCustomCameraOverlay.Form1.resources
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\MyCustomCameraOverlay\MyCustomCameraOverlay\obj\x64\Release\MyCustomCameraOverlay.Properties.Resources.resources
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\MyCustomCameraOverlay\MyCustomCameraOverlay\obj\x64\Release\MyCustomCameraOverlay.csproj.GenerateResource.cache
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\MyCustomCameraOverlay\MyCustomCameraOverlay\obj\x64\Release\MyCustomCameraOverlay.csproj.CoreCompileInputs.cache
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\MyCustomCameraOverlay\MyCustomCameraOverlay\obj\x64\Release\MyCustom.D08F4491.Up2Date
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\MyCustomCameraOverlay\MyCustomCameraOverlay\obj\x64\Release\MyCustomCameraOverlay.exe
+C:\Users\TeachingLab\Desktop\OptogeneticsOrgerLab\MyCustomCameraOverlay\MyCustomCameraOverlay\obj\x64\Release\MyCustomCameraOverlay.pdb
