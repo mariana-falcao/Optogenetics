@@ -1,18 +1,40 @@
-To run behaviour experiments these are the files needed: 
- - cam_beep_gratings_netControled_Behaviour 
-    (upload this file in arduino with the right baud rate)
- - Behaviour 
-    (C# script that allows user inputs such as the delay time between gratings expusure and beep)
+# Experiment Control Code
 
+This repository contains Arduino and C# scripts used to run behavioral and optogenetic experiments involving camera triggering, auditory cues, and visual stimulation.
 
-To run optogenetics experiments these are the files needed: 
- - cam_beep_netControled_3Timers
-    (upload this file in arduino with the right baud rate)
- - cam_Control_userInputSAVE
-    (C# script that allows user inputs such as the delay time between beam exposure and beep)
+---
 
+## Behaviour Experiments
 
-In this folder there are also other files such as: 
-- cam_Control_userInput - same as cam_Control_userInputSAVE bur does not save the videos 
-- cam_beep_netControled_diffTimers - only triggers the camera and the beeper
-- gratingsTest/GratingTest - creates gratings for the desired amount of time given by the user input (this is included in the 'Behaviour' code)
+### Required Files
+
+- **cam_beep_gratings_netControled_Behaviour**  
+  Arduino script — upload to Arduino (ensure correct baud rate)
+
+- **Behaviour**  
+  C# script — provides user inputs such as delay between grating exposure and beep
+
+---
+
+## Optogenetics Experiments
+
+### Required Files
+
+- **cam_beep_netControled_3Timers**  
+  Arduino script — upload to Arduino (ensure correct baud rate)
+
+- **cam_Control_userInputSAVE**  
+  C# script — allows delay control between beam exposure and beep, and saves video recordings
+
+---
+
+## Additional Files Included
+
+- **cam_Control_userInput**  
+  Same functionality as `cam_Control_userInputSAVE` but **does not save videos**
+
+- **cam_beep_netControled_diffTimers**  
+  Only triggers the camera and beeper
+
+- **gratingsTest / GratingTest**  
+  Creates gratings for a user-specified duration *(included inside the `Behaviour` code)*
