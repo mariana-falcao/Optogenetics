@@ -38,3 +38,6 @@ This repository contains Arduino and C# scripts used to run behavioral and optog
 
 - **gratingsTest / GratingTest**  
   Creates gratings for a user-specified duration *(included inside the `Behaviour` code)*
+
+- **CustomCameraOverlay**  
+  Allows to position fish head to target always the same region of the brain with the light
